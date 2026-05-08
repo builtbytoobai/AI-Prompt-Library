@@ -26,6 +26,13 @@ ai-prompt-library/
 │   ├── music.md
 │   └── ai-project-planning.md
 │
+├── reviews/
+│   ├── chatgpt-project-review.md
+│   ├── gemini-project-review.md
+│   ├── issue-review-template.md
+│   ├── pr-review-template.md
+│   └── roadmap-review-template.md
+│
 ├── workflows/
 │   └── idea-to-project.md
 │   ├── model-agnostic-ai-project.md
@@ -45,6 +52,8 @@ ai-prompt-library/
 - Productivity
 - Project planning
 - Music and storytelling
+- External AI review workflows
+- Project, issue, PR, and roadmap review
 
 ---
 
