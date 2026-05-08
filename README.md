@@ -22,7 +22,9 @@ ai-prompt-library/
 ├── prompts/
 │   ├── creative-writing.md
 │   ├── coding.md
-│   └── productivity.md
+│   ├── productivity.md
+│   ├── music.md
+│   └── ai-project-planning.md
 │
 ├── workflows/
 │   └── idea-to-project.md
