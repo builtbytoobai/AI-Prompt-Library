@@ -54,3 +54,16 @@ Good prompts are not magic.
 They are clear instructions, useful context, and repeated refinement.
 
 Build → Test → Improve → Repeat
+
+---
+
+## ✅ Current Version
+
+Version 1.1 includes:
+
+- Creative writing prompts
+- Coding and learning prompts
+- Productivity prompts
+- Music and artist identity prompts
+- AI project planning prompts
+- Basic workflows and example outputs
