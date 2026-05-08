@@ -1,6 +1,6 @@
-# PR External Review Template
+# Pull Request External Review Template
 
-Use this when asking an external AI reviewer to evaluate a pull request.
+Use this when asking ChatGPT or Gemini to review a pull request before merge.
 
 ---
 
@@ -13,32 +13,58 @@ Repository:
 [repo name]
 
 PR title:
-[title]
+[PR title]
 
 PR summary:
-[paste summary]
+[paste PR summary]
 
 Files changed:
-[paste files changed]
+[paste list of changed files]
 
-Diff or relevant code:
-[paste important diff/code]
+Important diff or code:
+[paste relevant diff/code]
 
 Test results:
-[paste local tests and GitHub checks]
+[paste local test results and GitHub checks]
+
+Project direction:
+[paste relevant roadmap or goal]
 
 Review for:
 - correctness
 - maintainability
-- whether the change is too large
+- scope control
+- whether unrelated files changed
 - missing tests
-- missing docs
-- security/secrets issues
-- whether it follows the project direction
+- missing documentation
+- security or secrets issues
+- whether this fits the project direction
+- whether this should be merged now
 
 Give me:
-- approve / approve with changes / reject
-- required changes before merge
-- optional improvements
-- questions I should ask Claude before merging
+
+1. Recommendation:
+   - approve
+   - approve with changes
+   - reject for now
+
+2. Required changes before merge
+
+3. Optional improvements
+
+4. Risks or edge cases
+
+5. Questions I should ask Claude Code before merging
+
+6. Suggested follow-up issue, if relevant
 ```
+
+---
+
+## Best used for
+
+- PR review before merge
+- Checking Claude Code output
+- Reviewing larger changes
+- Catching missed docs/tests
+- Keeping the repo clean and focused
