@@ -28,6 +28,7 @@ ai-prompt-library/
 │
 ├── workflows/
 │   └── idea-to-project.md
+│   ├── model-agnostic-ai-project.md
 │
 ├── examples/
 │   └── example-output.md
@@ -67,3 +68,4 @@ Version 1.1 includes:
 - Music and artist identity prompts
 - AI project planning prompts
 - Basic workflows and example outputs
+- Model-agnostic AI project workflow
